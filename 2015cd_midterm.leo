@@ -34,6 +34,7 @@
 <v t="2014fall.20141212095015.1777" a="E"><vh>class Midterm</vh>
 <v t="amd.20150503182609.1"><vh>__init__</vh></v>
 <v t="2015.20150609105412.1"><vh>index</vh></v>
+<v t="2015.20150616215152.1"><vh>a_40223102</vh></v>
 </v>
 </v>
 </v>
@@ -220,7 +221,14 @@ vertical: body pane on the botton</t>
 <t tx="2015.20150609105412.1">@cherrypy.expose
 def index(self):
     outstring = '''
-a_40223102
+&lt;a href="a_40223102"&gt;a_40223102&lt;/a&gt;&lt;br /&gt;
+'''
+    return outstring
+</t>
+<t tx="2015.20150616215152.1">@cherrypy.expose
+def a_40223102(self):
+    outstring = '''
+40223102
 '''
     return outstring
 </t>

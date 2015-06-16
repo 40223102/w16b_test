@@ -101,7 +101,13 @@ class Midterm(object):
     @cherrypy.expose
     def index(self):
         outstring = '''
-    a_40223102
+    <a href="a_40223102">a_40223102</a><br />
+    '''
+        return outstring
+    @cherrypy.expose
+    def a_40223102(self):
+        outstring = '''
+    40223102
     '''
         return outstring
 ################# (4) 程式啟動區
